@@ -2,7 +2,7 @@
 read -p "Enter file name: " file_name
 read -p "Enter start time (format hh:mm:ss): " start_time
 read -p "Enter file duration (format hh:mm:ss): " end_time
-read -p "Enter output file name (press enter for default output name: " output_name
+read -p "Enter output file name (press enter for default output name): " output_name
 if [ "$output_name" = "" ]
 	then
 	echo $output_name
